@@ -2,6 +2,7 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import HomePage from '../views/HomePage.vue'
 import TorchRelay from '../views/TorchRelay.vue';
+import EventGuide from'../views/EventGuide.vue';
 import AthletePage from '../views/AthletePage.vue';
 import OlympicArchive from '@/views/OlympicArchive.vue';
 
@@ -15,6 +16,11 @@ const routes = [
     path: '/torch-relay',
     name: 'TorchRelay',
     component: TorchRelay
+  },
+  {
+    path: '/event-guide',
+    name: 'EventGuide',
+    component: EventGuide
   },
   {
     path: '/athlete-page',
